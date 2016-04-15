@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E664F9511C8E14D1007CF915 /* Kingthings_Petrock.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E664F9501C8E14D1007CF915 /* Kingthings_Petrock.ttf */; };
+		E664F9551C8E17A4007CF915 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E664F9541C8E17A4007CF915 /* GameViewController.swift */; };
+		E664F9571C8E1871007CF915 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E664F9561C8E1871007CF915 /* SettingsViewController.swift */; };
+		E664F96A1C8E210A007CF915 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E664F9691C8E210A007CF915 /* Player.swift */; };
+		E664F96C1C8E2118007CF915 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = E664F96B1C8E2118007CF915 /* Story.swift */; };
+		E664F96E1C8E2151007CF915 /* InGameMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E664F96D1C8E2151007CF915 /* InGameMenuViewController.swift */; };
+		E6791D491CBC639400F4A4E3 /* Forest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6791D481CBC639400F4A4E3 /* Forest.swift */; };
+		E6791D4B1CBC63A400F4A4E3 /* Castle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6791D4A1CBC63A400F4A4E3 /* Castle.swift */; };
+		E6791D4D1CBC63C600F4A4E3 /* Village.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6791D4C1CBC63C600F4A4E3 /* Village.swift */; };
+		E6791D511CBC71A200F4A4E3 /* Stewart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6791D501CBC71A200F4A4E3 /* Stewart.swift */; };
+		E6791D531CBC71B800F4A4E3 /* King.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6791D521CBC71B800F4A4E3 /* King.swift */; };
+		E6791D551CBC71C000F4A4E3 /* Queen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6791D541CBC71C000F4A4E3 /* Queen.swift */; };
+		E6791D571CBC71CA00F4A4E3 /* Woodsman.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6791D561CBC71CA00F4A4E3 /* Woodsman.swift */; };
+		E6791D591CBC71D600F4A4E3 /* Knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6791D581CBC71D600F4A4E3 /* Knight.swift */; };
+		E6791D5B1CBC71EA00F4A4E3 /* Wizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6791D5A1CBC71EA00F4A4E3 /* Wizard.swift */; };
+		E6791D5D1CBC720800F4A4E3 /* NPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6791D5C1CBC720800F4A4E3 /* NPC.swift */; };
+		E6791D5F1CBC731400F4A4E3 /* Merchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6791D5E1CBC731400F4A4E3 /* Merchant.swift */; };
+		E6BDAF931C8E11D300E18419 /* crossedSwords.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BDAF921C8E11D300E18419 /* crossedSwords.png */; };
+		F06B01AD1CBC1C37001C7A82 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B01AC1CBC1C37001C7A82 /* Item.swift */; };
+		F06B01AF1CBC1CC9001C7A82 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B01AE1CBC1CC9001C7A82 /* GameManager.swift */; };
+		F088434D1C87A99800F25958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F088434C1C87A99800F25958 /* AppDelegate.swift */; };
+		F088434F1C87A99800F25958 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F088434E1C87A99800F25958 /* ViewController.swift */; };
+		F08843521C87A99800F25958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F08843501C87A99800F25958 /* Main.storyboard */; };
+		F08843541C87A99800F25958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F08843531C87A99800F25958 /* Assets.xcassets */; };
+		F08843571C87A99800F25958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F08843551C87A99800F25958 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E664F9671C8E1C1F007CF915 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E664F9501C8E14D1007CF915 /* Kingthings_Petrock.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kingthings_Petrock.ttf; sourceTree = "<group>"; };
+		E664F9541C8E17A4007CF915 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E664F9561C8E1871007CF915 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E664F9691C8E210A007CF915 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E664F96B1C8E2118007CF915 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		E664F96D1C8E2151007CF915 /* InGameMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InGameMenuViewController.swift; sourceTree = "<group>"; };
+		E6791D481CBC639400F4A4E3 /* Forest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forest.swift; sourceTree = "<group>"; };
+		E6791D4A1CBC63A400F4A4E3 /* Castle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Castle.swift; sourceTree = "<group>"; };
+		E6791D4C1CBC63C600F4A4E3 /* Village.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Village.swift; sourceTree = "<group>"; };
+		E6791D501CBC71A200F4A4E3 /* Stewart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stewart.swift; sourceTree = "<group>"; };
+		E6791D521CBC71B800F4A4E3 /* King.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = King.swift; sourceTree = "<group>"; };
+		E6791D541CBC71C000F4A4E3 /* Queen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queen.swift; sourceTree = "<group>"; };
+		E6791D561CBC71CA00F4A4E3 /* Woodsman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Woodsman.swift; sourceTree = "<group>"; };
+		E6791D581CBC71D600F4A4E3 /* Knight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knight.swift; sourceTree = "<group>"; };
+		E6791D5A1CBC71EA00F4A4E3 /* Wizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wizard.swift; sourceTree = "<group>"; };
+		E6791D5C1CBC720800F4A4E3 /* NPC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPC.swift; sourceTree = "<group>"; };
+		E6791D5E1CBC731400F4A4E3 /* Merchant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Merchant.swift; sourceTree = "<group>"; };
+		E6BDAF921C8E11D300E18419 /* crossedSwords.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crossedSwords.png; sourceTree = "<group>"; };
+		F06B01AC1CBC1C37001C7A82 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F06B01AE1CBC1CC9001C7A82 /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		F08843491C87A99800F25958 /* EmojiQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F088434C1C87A99800F25958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F088434E1C87A99800F25958 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F08843511C87A99800F25958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F08843531C87A99800F25958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F08843561C87A99800F25958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F08843581C87A99800F25958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F08843461C87A99800F25958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E664F9521C8E16A0007CF915 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E664F9501C8E14D1007CF915 /* Kingthings_Petrock.ttf */,
+				E6BDAF921C8E11D300E18419 /* crossedSwords.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		E664F9531C8E16AE007CF915 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F088434E1C87A99800F25958 /* ViewController.swift */,
+				E664F9541C8E17A4007CF915 /* GameViewController.swift */,
+				E664F9561C8E1871007CF915 /* SettingsViewController.swift */,
+				E664F96D1C8E2151007CF915 /* InGameMenuViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E664F9681C8E20F9007CF915 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E6791D4E1CBC717700F4A4E3 /* Story */,
+				E664F9691C8E210A007CF915 /* Player.swift */,
+				E6791D4F1CBC718800F4A4E3 /* NPCs */,
+				F06B01AC1CBC1C37001C7A82 /* Item.swift */,
+				F06B01AE1CBC1CC9001C7A82 /* GameManager.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E6791D4E1CBC717700F4A4E3 /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				E664F96B1C8E2118007CF915 /* Story.swift */,
+				E6791D481CBC639400F4A4E3 /* Forest.swift */,
+				E6791D4C1CBC63C600F4A4E3 /* Village.swift */,
+				E6791D4A1CBC63A400F4A4E3 /* Castle.swift */,
+			);
+			name = Story;
+			sourceTree = "<group>";
+		};
+		E6791D4F1CBC718800F4A4E3 /* NPCs */ = {
+			isa = PBXGroup;
+			children = (
+				E6791D501CBC71A200F4A4E3 /* Stewart.swift */,
+				E6791D521CBC71B800F4A4E3 /* King.swift */,
+				E6791D541CBC71C000F4A4E3 /* Queen.swift */,
+				E6791D561CBC71CA00F4A4E3 /* Woodsman.swift */,
+				E6791D581CBC71D600F4A4E3 /* Knight.swift */,
+				E6791D5A1CBC71EA00F4A4E3 /* Wizard.swift */,
+				E6791D5C1CBC720800F4A4E3 /* NPC.swift */,
+				E6791D5E1CBC731400F4A4E3 /* Merchant.swift */,
+			);
+			name = NPCs;
+			sourceTree = "<group>";
+		};
+		F08843401C87A99800F25958 = {
+			isa = PBXGroup;
+			children = (
+				F088434B1C87A99800F25958 /* EmojiQuest */,
+				F088434A1C87A99800F25958 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F088434A1C87A99800F25958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F08843491C87A99800F25958 /* EmojiQuest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F088434B1C87A99800F25958 /* EmojiQuest */ = {
+			isa = PBXGroup;
+			children = (
+				F088434C1C87A99800F25958 /* AppDelegate.swift */,
+				F08843501C87A99800F25958 /* Main.storyboard */,
+				F08843531C87A99800F25958 /* Assets.xcassets */,
+				F08843551C87A99800F25958 /* LaunchScreen.storyboard */,
+				F08843581C87A99800F25958 /* Info.plist */,
+				E664F9681C8E20F9007CF915 /* Models */,
+				E664F9531C8E16AE007CF915 /* Controllers */,
+				E664F9521C8E16A0007CF915 /* Assets */,
+			);
+			path = EmojiQuest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F08843481C87A99800F25958 /* EmojiQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F088435B1C87A99800F25958 /* Build configuration list for PBXNativeTarget "EmojiQuest" */;
+			buildPhases = (
+				F08843451C87A99800F25958 /* Sources */,
+				F08843461C87A99800F25958 /* Frameworks */,
+				F08843471C87A99800F25958 /* Resources */,
+				E664F9671C8E1C1F007CF915 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmojiQuest;
+			productName = EmojiQuest;
+			productReference = F08843491C87A99800F25958 /* EmojiQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F08843411C87A99800F25958 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = IST446;
+				TargetAttributes = {
+					F08843481C87A99800F25958 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7577X5NT42;
+					};
+				};
+			};
+			buildConfigurationList = F08843441C87A99800F25958 /* Build configuration list for PBXProject "EmojiQuest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F08843401C87A99800F25958;
+			productRefGroup = F088434A1C87A99800F25958 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F08843481C87A99800F25958 /* EmojiQuest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F08843471C87A99800F25958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08843571C87A99800F25958 /* LaunchScreen.storyboard in Resources */,
+				E6BDAF931C8E11D300E18419 /* crossedSwords.png in Resources */,
+				F08843541C87A99800F25958 /* Assets.xcassets in Resources */,
+				E664F9511C8E14D1007CF915 /* Kingthings_Petrock.ttf in Resources */,
+				F08843521C87A99800F25958 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F08843451C87A99800F25958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6791D4D1CBC63C600F4A4E3 /* Village.swift in Sources */,
+				E6791D571CBC71CA00F4A4E3 /* Woodsman.swift in Sources */,
+				E6791D591CBC71D600F4A4E3 /* Knight.swift in Sources */,
+				F088434F1C87A99800F25958 /* ViewController.swift in Sources */,
+				F06B01AF1CBC1CC9001C7A82 /* GameManager.swift in Sources */,
+				E664F9551C8E17A4007CF915 /* GameViewController.swift in Sources */,
+				E6791D5D1CBC720800F4A4E3 /* NPC.swift in Sources */,
+				F088434D1C87A99800F25958 /* AppDelegate.swift in Sources */,
+				E664F96A1C8E210A007CF915 /* Player.swift in Sources */,
+				E6791D551CBC71C000F4A4E3 /* Queen.swift in Sources */,
+				E6791D531CBC71B800F4A4E3 /* King.swift in Sources */,
+				E6791D5B1CBC71EA00F4A4E3 /* Wizard.swift in Sources */,
+				F06B01AD1CBC1C37001C7A82 /* Item.swift in Sources */,
+				E6791D491CBC639400F4A4E3 /* Forest.swift in Sources */,
+				E664F9571C8E1871007CF915 /* SettingsViewController.swift in Sources */,
+				E6791D4B1CBC63A400F4A4E3 /* Castle.swift in Sources */,
+				E664F96E1C8E2151007CF915 /* InGameMenuViewController.swift in Sources */,
+				E6791D511CBC71A200F4A4E3 /* Stewart.swift in Sources */,
+				E664F96C1C8E2118007CF915 /* Story.swift in Sources */,
+				E6791D5F1CBC731400F4A4E3 /* Merchant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F08843501C87A99800F25958 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F08843511C87A99800F25958 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F08843551C87A99800F25958 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F08843561C87A99800F25958 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F08843591C87A99800F25958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F088435A1C87A99800F25958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F088435C1C87A99800F25958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EmojiQuest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RedSalsaDressStudios.EmojiQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F088435D1C87A99800F25958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EmojiQuest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RedSalsaDressStudios.EmojiQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F08843441C87A99800F25958 /* Build configuration list for PBXProject "EmojiQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08843591C87A99800F25958 /* Debug */,
+				F088435A1C87A99800F25958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F088435B1C87A99800F25958 /* Build configuration list for PBXNativeTarget "EmojiQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F088435C1C87A99800F25958 /* Debug */,
+				F088435D1C87A99800F25958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F08843411C87A99800F25958 /* Project object */;
+}
