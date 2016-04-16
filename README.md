@@ -6,9 +6,9 @@
 Play a live version of the game here: doctordalekdesert.site88.net
 
 <br>
-Controls:
-  Space  = jump
-  Arrows = Move
+###Controls:
+  *Space  = jump <br>
+  *Arrows = Move
 
 Version: 1.0
 
